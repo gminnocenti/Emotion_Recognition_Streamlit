@@ -57,7 +57,7 @@ def display_model():
         
 
         cap.release()
-        cv2.destroyAllWindows()
+        #cv2.destroyAllWindows()
 
     if stop_button_pressed and recording_state:
         st.session_state.recording_state = False
